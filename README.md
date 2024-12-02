@@ -1,103 +1,118 @@
-Project Name
-Overview
-This project is a modern web application built with React, TypeScript, and Node.js. It offers a robust and scalable fullstack architecture, integrating a responsive frontend with a powerful backend API. The application leverages TypeScript for type safety, ensuring a maintainable and reliable codebase.
+# ClimaSphere
 
-Features
-Frontend: React with TypeScript, React Router, and state management (e.g., Context API or Redux).
-Backend: Node.js with Express for RESTful API design.
-Database: MongoDB (or other, depending on configuration).
-Testing: Unit tests using Jest and React Testing Library (frontend) and Mocha/Chai (backend).
-Setup Instructions
-Prerequisites
-Node.js (version 14+ recommended)
-MongoDB (local instance or cloud, e.g., MongoDB Atlas)
-Git
-Installation
-Clone the repository:
+## Overview
 
-bash
-Copy code
-git clone https://github.com/your-username/project-name.git
-cd project-name
-Install dependencies for both the server and client:
+This project is a modern web application built with **React**, **TypeScript**, and **Node.js**. It offers a robust and scalable fullstack architecture, integrating a responsive frontend with a powerful backend API. The application leverages TypeScript for type safety, ensuring a maintainable and reliable codebase.
+## Core Features:
+* Current Weather:
+* Display the current weather for a specified location.
+* 3-Day Forecast & 3-Day History:
+* Show weather details for the next 3 days and the past 3 days in a grid or list view.
+* Interactive Selection:
+* Clicking on a day’s weather tile updates the main display to show details for that specific day.
+## Features
 
-bash
-Copy code
-# Install backend dependencies
-cd server
-npm install
+*   **Frontend:** React with TypeScript, React Router, and state management (e.g., Context API or Redux).
+*   **Backend:** Node.js with Express for RESTful API design.
+*   **Database:** MongoDB (or other, depending on configuration).
+*   **Testing:** Unit tests using **Jest** and **React Testing Library** (frontend) and **Mocha/Chai** (backend).
 
-# Install frontend dependencies
-cd ../client
-npm install
-Set up environment variables:
-Create a .env file in the server directory with the following values:
+## Setup Instructions
 
-env
-Copy code
-PORT=3000
-NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/your-database-name
-JWT_SECRET=your-secret-key
-Run the Application
-Start the MongoDB server:
+### Prerequisites
 
-bash
-Copy code
-mongod
-Start the backend server:
+1.  **Node.js** (version 14+ recommended)
+2.  **MongoDB** (local instance or cloud, e.g., MongoDB Atlas)
+3.  **Git**
 
-bash
-Copy code
-cd server
-npm start
-Start the frontend development server:
+### Installation
 
-bash
-Copy code
-cd ../client
-npm start
-The application will now be accessible at http://localhost:3000.
+1.  Clone the repository:
+2.  bash
+3.  Copy code
+4.  git clone https://github.com/your-username/project-name.git
+5.  cd project-name
+6.  Install dependencies for both the server and client:
+7.  bash
+8.  Copy code
+9.  \# Install backend dependencies
+10.  cd server
+11.  npm install
+12.  \# Install frontend dependencies
+13.  cd ../client
+14.  npm install
+15.  Set up environment variables:  
+    Create a .env file in the server directory with the following values:
+16.  env
+17.  Copy code
+18.  PORT=3000
+19.  NODE\_ENV=development
+20.  MONGODB\_URI=mongodb://localhost:27017/your-database-name
+21.  JWT\_SECRET=your-secret-key
 
-Design Decisions and Trade-Offs
-React with TypeScript: Chosen for its powerful type safety and ability to catch errors at compile time, enhancing maintainability and scalability. Trade-off: Slightly steeper learning curve for developers unfamiliar with TypeScript.
+### Run the Application
 
-Node.js with Express: Lightweight and efficient for building RESTful APIs. Trade-off: Lacks out-of-the-box solutions for certain backend tasks compared to larger frameworks.
+1.  Start the MongoDB server:
+2.  bash
+3.  Copy code
+4.  mongod
+5.  Start the backend server:
+6.  bash
+7.  Copy code
+8.  cd server
+9.  npm start
+10.  Start the frontend development server:
+11.  bash
+12.  Copy code
+13.  cd ../client
+14.  npm start
 
-State Management: Used Context API for simplicity and avoiding Redux boilerplate. Trade-off: May require migration to Redux for more complex state scenarios.
+The application will now be accessible at **http://localhost:3000**.
 
-Database Choice (MongoDB): Non-relational database chosen for flexibility with unstructured data. Trade-off: Relational databases might be preferred for applications with complex joins.
+## Design Decisions and Trade-Offs
 
-Component-Based UI: Designed reusable React components for a modular and maintainable frontend. Trade-off: Initial time investment in creating reusable components.
+1.  **React with TypeScript:** Chosen for its powerful type safety and ability to catch errors at compile time, enhancing maintainability and scalability. Trade-off: Slightly steeper learning curve for developers unfamiliar with TypeScript.
+2.  **Node.js with Express:** Lightweight and efficient for building RESTful APIs. Trade-off: Lacks out-of-the-box solutions for certain backend tasks compared to larger frameworks.
+3.  **State Management:** Used Context API for simplicity and avoiding Redux boilerplate. Trade-off: May require migration to Redux for more complex state scenarios.
+4.  **Database Choice (MongoDB):** Non-relational database chosen for flexibility with unstructured data. Trade-off: Relational databases might be preferred for applications with complex joins.
+5.  **Component-Based UI:** Designed reusable React components for a modular and maintainable frontend. Trade-off: Initial time investment in creating reusable components.
 
-Unit Testing
-Frontend Testing
-Framework: Jest and React Testing Library.
-Test focus:
-Component rendering
-Event handling and state updates
-Integration of API calls with mock data
-Run frontend tests:
-bash
-Copy code
-cd client
-npm test
-Backend Testing
-Framework: Mocha with Chai for assertions.
-Test focus:
-API endpoints
-Business logic
-Database interactions with mock databases
-Run backend tests:
-bash
-Copy code
-cd server
-npm test
-Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit changes (git commit -m 'Add feature').
-Push the branch (git push origin feature-name).
-Open a pull request.
-License
+## Unit Testing
+
+### Frontend Testing
+
+*   Framework: **Jest** and **React Testing Library**.
+*   Test focus:
+*   Component rendering
+*   Event handling and state updates
+*   Integration of API calls with mock data
+*   Run frontend tests:
+*   bash
+*   Copy code
+*   cd client
+*   npm test
+
+### Backend Testing
+
+*   Framework: **Mocha** with **Chai** for assertions.
+*   Test focus:
+*   API endpoints
+*   Business logic
+*   Database interactions with mock databases
+*   Run backend tests:
+*   bash
+*   Copy code
+*   cd server
+*   npm test
+
+## Contributing
+
+1.  Fork the repository.
+2.  Create a new branch (git checkout -b feature-name).
+3.  Commit changes (git commit -m 'Add feature').
+4.  Push the branch (git push origin feature-name).
+5.  Open a pull request.
+
+## License
+
 This project is licensed under the MIT License.
