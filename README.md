@@ -21,25 +21,18 @@ This project is a modern web application built with **React**, **TypeScript**, a
 
 ### Prerequisites
 
-1.  **Node.js** (version 14+ recommended)
-2.  **MongoDB** (local instance or cloud, e.g., MongoDB Atlas)
+1.  **Node.js** (version 18+ recommended)
+2.  **WeatherStack API**
 3.  **Git**
 
 ### Installation
 
 1.  Clone the repository:
-2.  bash
-3.  Copy code
-4.  git clone https://github.com/your-username/project-name.git
-5.  cd project-name
-6.  Install dependencies for both the server and client:
-7.  bash
-8.  Copy code
-9.  \# Install backend dependencies
-10.  cd server
-11.  npm install
-12.  \# Install frontend dependencies
-13.  cd ../client
+          git clone https://github.com/joedewet36/weather-react.git
+2.  cd WEATHER-REACT
+3.  Install dependencies
+        npm install
+
 14.  npm install
 15.  Set up environment variables:  
     Create a .env file in the server directory with the following values:
