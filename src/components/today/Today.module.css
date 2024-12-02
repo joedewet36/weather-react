@@ -1,0 +1,108 @@
+.currentWeather .card {
+  background-color: var(--boxes-colors);
+  color: var(--sec-text-color);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.currentWeather .card h2 {
+  font-size: 22px;
+  color: var(--main-text-color);
+}
+
+.currentWeather .card .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentWeather .card .wrapper span {
+  font-size: 55px;
+  color: var(--main-text-color);
+}
+
+.currentWeather .card .wrapper img {
+  width: 90px;
+  margin: auto;
+}
+
+.currentWeather .card .wState {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--sec-text-color);
+  color: var(--sec-text-color);
+}
+
+.currentWeather .card .metaList {
+  margin-top: 30px;
+}
+
+.currentWeather .card .metaList .metaItem {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.currentWeather .card .metaList .metaItem i {
+  color: var(--main-text-color);
+}
+
+.currentWeather .card .metaList .metaItem p {
+  font-size: 0.9rem;
+}
+.weatherIcon{
+  width: 100px;
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 15px;
+  width: 33%;
+}
+
+.box h3 {
+  font-size: 1rem;
+  color: var(--sec-text-color);
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+}
+
+.box .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  color: var(--main-text-color);
+}
+
+.box .bottom svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 2px;
+  margin: 2px;
+}
+
+.box .bottom p {
+  font-size: 1.3rem;
+}
+.box .bottom span {
+  width:100px;
+  text-align:left;
+}
+.img{
+  width: 50px !important;
+  padding: 3px;
+}
+.temp{
+  font-size: 30px !important;
+}
