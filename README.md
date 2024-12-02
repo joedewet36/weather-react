@@ -12,7 +12,7 @@ This project is a modern web application built with **React**, **TypeScript**, a
 * Clicking on a day’s weather tile updates the main display to show details for that specific day.
 ## Features
 
-*   **Frontend:** React with TypeScript, React Router, and state management (e.g., Context API or Redux).
+*   **Frontend:** React with TypeScript, and state management Context API .
 
 *   **Testing:** Unit tests using **Jest** and **React Testing Library** (frontend) 
 
