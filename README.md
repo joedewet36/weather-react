@@ -4,8 +4,8 @@
 
 This project is a modern web application built with **React**, **TypeScript**, and **Node.js**. It offers a robust and scalable fullstack architecture, integrating a responsive frontend with a powerful backend API. The application leverages TypeScript for type safety, ensuring a maintainable and reliable codebase.
 ## Core Features:
-* Current Weather:
-* Display the current weather for a specified location.
+1. Current Weather:
+   Display the current weather for a specified location.
 * 3-Day Forecast & 3-Day History:
 * Show weather details for the next 3 days and the past 3 days in a grid or list view.
 * Interactive Selection:
