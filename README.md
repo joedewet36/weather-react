@@ -55,15 +55,9 @@ The application will now be accessible at **http://localhost:3000**.
 ### Frontend Testing
 
 *   Framework: **Jest** and **React Testing Library**.
-*   Test focus:
-*   Component rendering
-*   Event handling and state updates
-*   Integration of API calls with mock data
-*   Run frontend tests:
-*   bash
-*   Copy code
-*   cd client
-*   npm test
+### Run the Tests
+     npm run test
+     
 
 ## Contributing
 
