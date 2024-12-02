@@ -1,5 +1,5 @@
 # ClimaSphere
-
+    DEMO deployd here [ClimaSphere](https://clima-sphere.netlify.app) 
 ## Overview
 
 This project is a modern web application built with **React**, **TypeScript**, and **Node.js**. It offers a robust and scalable fullstack architecture, integrating a responsive frontend with a powerful backend API. The application leverages TypeScript for type safety, ensuring a maintainable and reliable codebase.
